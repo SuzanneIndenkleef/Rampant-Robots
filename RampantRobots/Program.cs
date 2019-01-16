@@ -21,7 +21,7 @@ namespace RampantRobots
             // Set difficulty
             while (mode != "1" & mode != "2" & mode != "3")
             {
-                Console.WriteLine("Choose 1 for Easy-mode, 2 for Hard-mode and 3 for Expert-mode");
+                Console.WriteLine("Choose 1 for Easy-Mode, 2 for Hard-Mode and 3 for Expert-Mode");
                 mode = Console.ReadLine();
             }
             if (mode == "1")
